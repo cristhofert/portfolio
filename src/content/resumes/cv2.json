@@ -1,0 +1,296 @@
+{
+  "basics": {
+    "name": "Cristhofer 2",
+    "label": "Full Stack Developer",
+    "image": "https://avatars.githubusercontent.com/u/2084227?s=400&u=f644635058cc957521153abaff0dee93d4fc2d21&v=4",
+    "email": "cristhofert97@gmail.com",
+    "phone": "2091635320",
+    "url": "https://github.com/cristhofert",
+    "summary": "2Soy una persona apasionada por el desarrollo web y la tecnología. Siempre busco oportunidades para aprender y mejorar mis habilidades. Mi objetivo es seguir creciendo profesionalmente como desarrollador full stack y contribuir al éxito de empresas innovadoras. Estoy abierto/a a nuevas conexiones y oportunidades de colaboración en el ámbito tecnológico.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Libertad",
+      "countryCode": "UY",
+      "region": "San José"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "cristhofertravieso",
+        "url": "https://www.linkedin.com/in/cristhofertravieso/"
+      },
+      {
+        "network": "X",
+        "username": "cristhofert97",
+        "url": "https://twitter.com/cristhofert97"
+      },
+      {
+        "network": "GitHub2",
+        "username": "cristhofert",
+        "url": "https://github.com/cristhofert"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Desarrollador Full Stack Junior en Avance Software",
+      "position": "Desarrollador Full Stack Junior",
+      "url": "https://avancesoftware.com.uy/",
+      "startDate": "01-01-2022",
+      "endDate": "01-01-2023",
+      "summary": "En mi rol como Desarrollador Full Stack Junior en Avance Software, he trabajado en el diseño y desarrollo de aplicaciones web utilizando tecnologías como JavaScript, React, Node.js, TypeScript, Java, Python, HTML, CSS y SQL. He colaborado con un equipo de desarrollo para alcanzar objetivos y brindar soluciones innovadoras a los clientes.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "2Universidad Tecnológica (UTEC)",
+      "url": "https://utec.edu.uy/es/educacion/carrera/tecnologo-en-informatica/",
+      "area": "Tecnólogo en Informática",
+      "studyType": "Tecnólogo en Informática",
+      "startDate": "Marzo de 2019",
+      "endDate": "Diciembre de 2021",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "4 Geeks Academy",
+      "url": "https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack",
+      "area": "Bootcamp de Desarrollador Full Stack",
+      "studyType": "Bootcamps",
+      "startDate": "2021",
+      "endDate": "2021",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "href": "https://angular.io",
+      "src": "https://angular.io/assets/images/logos/angular/angular.svg",
+      "name": "2angular"
+    },
+    {
+      "href": "https://cordova.apache.org/",
+      "src": "https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg",
+      "name": "apachecordova"
+    },
+    {
+      "href": "https://www.gnu.org/software/bash/",
+      "src": "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg",
+      "name": "bash"
+    },
+    {
+      "href": "https://getbootstrap.com",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+      "name": "bootstrap"
+    },
+    {
+      "href": "https://codeigniter.com",
+      "src": "https://cdn.worldvectorlogo.com/logos/codeigniter.svg",
+      "name": "codeigniter"
+    },
+    {
+      "href": "https://www.w3schools.com/cpp/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+      "name": "cplusplus"
+    },
+    {
+      "href": "https://www.w3schools.com/cs/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+      "name": "csharp"
+    },
+    {
+      "href": "https://www.w3schools.com/css/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+      "name": "css3"
+    },
+    {
+      "href": "https://www.djangoproject.com/",
+      "src": "https://cdn.worldvectorlogo.com/logos/django.svg",
+      "name": "django"
+    },
+    {
+      "href": "https://www.docker.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      "name": "docker"
+    },
+    {
+      "href": "https://dotnet.microsoft.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg",
+      "name": "dotnet"
+    },
+    {
+      "href": "https://www.elastic.co",
+      "src": "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg",
+      "name": "elasticsearch"
+    },
+    {
+      "href": "https://expressjs.com",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+      "name": "express"
+    },
+    {
+      "href": "https://firebase.google.com/",
+      "src": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      "name": "firebase"
+    },
+    {
+      "href": "https://flask.palletsprojects.com/",
+      "src": "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
+      "name": "flask"
+    },
+    {
+      "href": "https://git-scm.com/",
+      "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      "name": "git"
+    },
+    {
+      "href": "https://graphql.org",
+      "src": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+      "name": "graphql"
+    },
+    {
+      "href": "https://www.w3.org/html/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+      "name": "html5"
+    },
+    {
+      "href": "https://ionicframework.com",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg",
+      "name": "ionic"
+    },
+    {
+      "href": "https://www.java.com",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      "name": "java"
+    },
+    {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      "name": "javascript"
+    },
+    {
+      "href": "https://www.linux.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+      "name": "linux"
+    },
+    {
+      "href": "https://mariadb.org/",
+      "src": "https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg",
+      "name": "mariadb"
+    },
+    {
+      "href": "https://www.mongodb.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      "name": "mongodb"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sql-server",
+      "src": "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
+      "name": "mssql"
+    },
+    {
+      "href": "https://www.mysql.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      "name": "mysql"
+    },
+    {
+      "href": "https://nodejs.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+      "name": "nodejs"
+    },
+    {
+      "href": "https://www.php.net",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+      "name": "php"
+    },
+    {
+      "href": "https://www.postgresql.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+      "name": "postgresql"
+    },
+    {
+      "href": "https://postman.com",
+      "src": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      "name": "postman"
+    },
+    {
+      "href": "https://www.python.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      "name": "python"
+    },
+    {
+      "href": "https://reactjs.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      "name": "react"
+    },
+    {
+      "href": "https://redux.js.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+      "name": "redux"
+    },
+    {
+      "href": "https://www.ruby-lang.org/en/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg",
+      "name": "ruby"
+    },
+    {
+      "href": "https://www.rust-lang.org",
+      "src": "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
+      "name": "rust"
+    },
+    {
+      "href": "https://sass-lang.com",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+      "name": "sass"
+    },
+    {
+      "href": "https://www.sqlite.org/",
+      "src": "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
+      "name": "sqlite"
+    },
+    {
+      "href": "https://tailwindcss.com/",
+      "src": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      "name": "tailwind"
+    },
+    {
+      "href": "https://www.typescriptlang.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      "name": "typescript"
+    },
+    {
+      "href": "https://vuejs.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg",
+      "name": "vuejs"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Intermedio B1"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Daniel Díaz ",
+      "reference": "daniel@avancesoftware.com.uy"
+    },
+    {
+      "name": "Germán Fernández ",
+      "reference": "german@avancesoftware.com.uy"
+    }
+  ],
+  "projects": []
+}

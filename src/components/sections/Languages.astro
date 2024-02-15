@@ -1,7 +1,13 @@
 ---
 import Section from "../Section.astro"
 
-import { languages } from "@cv"
+interface Props {
+  languages: {
+    language: string
+    fluency: string
+  }[]
+}
+const { languages } = Astro.props;
 ---
 
 <Section title="Idiomas">

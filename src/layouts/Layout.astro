@@ -1,5 +1,4 @@
 ---
-import { basics } from "@cv"
 
 interface Props {
   title: string
@@ -7,7 +6,6 @@ interface Props {
 
 const { title } = Astro.props
 
-const { image, summary } = basics
 ---
 
 <!doctype html>
@@ -15,10 +13,9 @@ const { image, summary } = basics
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
-    <meta name="description" content={summary} />
+    <meta name="description" content="Resumes of Cristhofer Travieso" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preload" as="image" href={image} />
   </head>
   <body>
     <slot />

@@ -1,0 +1,50 @@
+---
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Languages from "@/components/sections/Languages.astro";
+import References from "@/components/sections/References.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Layout from "@/layouts/Layout.astro"
+
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection('resumes');
+  return entries.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  })); 
+
+}
+
+const { entry } = Astro.props;
+//const { Content } = await entry.render();
+---
+<Layout title={`Portafolio de ${entry.data.basics.name} - ${entry.data.basics.label}`}>
+  <main>
+    <Hero basics={entry.data.basics} />
+    <About summary={entry.data.basics.summary} />
+    <Experience work={entry.data.work} />
+    <Education education={entry.data.education} />
+    <Skills skills={entry.data.skills} />
+    <Languages languages={entry.data.languages} />
+    <References references={entry.data.references} />
+  </main>
+
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
+</style>

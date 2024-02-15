@@ -1,6 +1,13 @@
 ---
 import Section from "../Section.astro"
-import { skills } from "@cv"
+
+interface Props {
+  skills: {
+    name: string
+    src: string
+  }[]
+}
+const { skills } = Astro.props;
 
 ---
 
