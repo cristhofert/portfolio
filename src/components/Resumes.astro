@@ -20,12 +20,13 @@ console.log(entries);
 <script>
     const button = document.querySelector('button');
     let show = false;
-    function toggle(e) {
+    function toggle(e: any) {
         show = !show;
         e.target.textContent = show ? '×' : 'CVs';
-        document.querySelector('ul').style.display = show ? 'block' : 'none';
+        const ul = document.querySelector('ul')
+        if (ul) ul.style.display = show ? 'block' : 'none';
     }
-    button.addEventListener('click', toggle);
+    if (button) button.addEventListener('click', toggle);
 </script>
 
 <style>

@@ -24,12 +24,12 @@ const { entry } = Astro.props;
 <Layout title={`Portafolio de ${entry.data.basics.name} - ${entry.data.basics.label}`}>
   <main>
     <Hero basics={entry.data.basics} />
-    <About summary={entry.data.basics.summary} lang={entry.data.basics.lang} />
-    <Experience work={entry.data.work} lang={entry.data.basics.lang} />
-    <Education education={entry.data.education} lang={entry.data.basics.lang} />
-    <Skills skills={entry.data.skills} lang={entry.data.basics.lang} />
-    <Languages languages={entry.data.languages} lang={entry.data.basics.lang} />
-    <References references={entry.data.references} lang={entry.data.basics.lang} />
+    <About summary={entry.data.basics.summary} lang={entry.data.basics?.lang ?? "es"} />
+    <Experience work={entry.data.work} lang={entry.data.basics?.lang ?? "es"} />
+    <Education education={entry.data.education} lang={entry.data.basics?.lang ?? "es"} />
+    <Skills skills={entry.data.skills} lang={entry.data.basics?.lang ?? "es"} />
+    <Languages languages={entry.data.languages} lang={entry.data.basics?.lang ?? "es"} />
+    <References references={entry.data.references} lang={entry.data.basics?.lang ?? "es"} />
   </main>
 
 </Layout>

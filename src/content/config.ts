@@ -11,6 +11,7 @@ const resumeCollection = defineCollection({
       email: z.string(),
       phone: z.string(),
       url: z.string(),
+      lang: z.string(),
       summary: z.string(),
       location: z.object({
         address: z.string(),
