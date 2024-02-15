@@ -1,0 +1,74 @@
+---
+import { getCollection } from "astro:content";
+
+const entries = await getCollection('resumes');
+console.log(entries);
+
+
+---
+<div>
+    <button >CVs</button>
+     <ul >
+        {entries.map((entry) => (
+            <li>
+                <a href={`/resumes/${entry.id}`}>{entry.id}</a>
+            </li>
+        ))}
+    </ul> 
+</div>
+
+<script>
+    const button = document.querySelector('button');
+    let show = false;
+    function toggle(e) {
+        show = !show;
+        e.target.textContent = show ? '×' : 'CVs';
+        document.querySelector('ul').style.display = show ? 'block' : 'none';
+    }
+    button.addEventListener('click', toggle);
+</script>
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        display: none;
+        padding: 20px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background-color: #000;
+        position: fixed;
+        z-index: 10;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    button:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #000;
+    }
+
+    button {
+        padding: 10px;
+        border-width: 1px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 5px;
+        border-color: #fff;
+        cursor: pointer;
+        width: 3rem;
+        font-weight: bold;
+    }
+
+    div {
+        width: 10rem;
+    }
+</style>

@@ -1,19 +1,13 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 
-import About from "@/components/sections/About.astro"
-import Education from "@/components/sections/Education.astro"
-import Experience from "@/components/sections/Experience.astro"
-import Hero from "@/components/sections/Hero.astro"
-import Skills from "@/components/sections/Skills.astro"
-
-import Languages from "@/components/sections/Languages.astro"
-import References from "@/components/sections/References.astro"
+import Resumes from "@/components/Resumes.astro"
 ---
 
 <Layout title={`Portafolio de Cristhofer Traavieso`}>
   <main>
-
+    <Resumes />
+    <iframe src="/resumes/cv" title="Cristhofer Travieso CV"></iframe>
   </main>
 
 </Layout>
@@ -21,6 +15,7 @@ import References from "@/components/sections/References.astro"
 <style>
   main {
     padding: 4rem;
+    padding-top: 0;
     margin: auto;
     width: 100%;
   }
@@ -30,4 +25,12 @@ import References from "@/components/sections/References.astro"
       padding: 2rem;
     }
   }
+
+  iframe{      
+        display: block;  /* iframes are inline by default */   
+        height: 100vh;  /* Set height to 100% of the viewport height */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+        background: lightyellow; /* Just for styling */
+    }
 </style>
