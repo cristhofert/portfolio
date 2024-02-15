@@ -10,14 +10,15 @@ interface Props {
     summary: string
     highlights: string[]
     url: string
-  }[]
+  }[],
+  lang: string
 }
 
-const { work } = Astro.props; 
+const { work, lang } = Astro.props; 
 
 ---
 
-<Section title="Experiencia laboral">
+<Section title={lang==="es" ? "Experiencia laboral" : "Work experience"}>
   <ul>
     {
       work.map(

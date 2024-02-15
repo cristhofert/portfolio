@@ -3,12 +3,13 @@ import Section from "../Section.astro"
 
 interface Props {
   summary: string;
+  lang: string;
 }
 
-const { summary } = Astro.props;
+const { summary, lang } = Astro.props;
 ---
 
-<Section title="Sobre mí">
+<Section title={lang==="es" ? "Sobre mí" : "About me"}>
   <p>
     {summary}
   </p>

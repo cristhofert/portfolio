@@ -7,12 +7,13 @@ interface Props {
     startDate: string
     endDate: string
     area: string
-  }[]
+  }[],
+  lang: string
 }
-const { education } = Astro.props;
+const { education, lang } = Astro.props;
 ---
 
-<Section title="Educación">
+<Section title={lang==="es" ? "Educación" : "Education"}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {

@@ -1,12 +1,13 @@
 {
   "basics": {
-    "name": "Cristhofer 3",
+    "name": "Cristhofer Travieso",
     "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/2084227?s=400&u=f644635058cc957521153abaff0dee93d4fc2d21&v=4",
     "email": "cristhofert97@gmail.com",
     "phone": "091635320",
     "url": "https://github.com/cristhofert",
-    "summary": "Soy una persona apasionada por el desarrollo web y la tecnología. Siempre busco oportunidades para aprender y mejorar mis habilidades. Mi objetivo es seguir creciendo profesionalmente como desarrollador full stack y contribuir al éxito de empresas innovadoras. Estoy abierto/a a nuevas conexiones y oportunidades de colaboración en el ámbito tecnológico.",
+    "lang": "es",
+    "summary": "Me apasiona el desarrollo web y la tecnología. Siempre busco oportunidades para aprender y mejorar mis habilidades. Mi objetivo es seguir creciendo profesionalmente como desarrollador full stack y contribuir al éxito de empresas innovadoras. Estoy abierto/a a nuevas conexiones y oportunidades de colaboración en el ámbito tecnológico.",
     "location": {
       "address": "",
       "postalCode": "",

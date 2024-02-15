@@ -5,12 +5,13 @@ interface Props {
   references: {
     name: string
     reference: string
-  }[]
+  }[],
+  lang: string
 }
-const { references } = Astro.props;
+const { references, lang } = Astro.props;
 ---
 
-<Section title="Educación">
+<Section title={lang === "es" ? "Referencias" : "References"}>
   <ul>
     {
       references.map(({ name, reference }) => {

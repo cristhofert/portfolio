@@ -1,18 +1,20 @@
 {
   "basics": {
-    "name": "Cristhofer 2",
+    "name": "Cristhofer Travieso",
     "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/2084227?s=400&u=f644635058cc957521153abaff0dee93d4fc2d21&v=4",
     "email": "cristhofert97@gmail.com",
-    "phone": "2091635320",
     "url": "https://github.com/cristhofert",
-    "summary": "2Soy una persona apasionada por el desarrollo web y la tecnología. Siempre busco oportunidades para aprender y mejorar mis habilidades. Mi objetivo es seguir creciendo profesionalmente como desarrollador full stack y contribuir al éxito de empresas innovadoras. Estoy abierto/a a nuevas conexiones y oportunidades de colaboración en el ámbito tecnológico.",
+    "summary": "I am passionate about web development and technology. I am always looking for opportunities to learn and improve my skills. My goal is to continue to grow professionally as a full stack developer and contribute to the success of innovative companies. I am open to new connections and collaboration opportunities in the technology field.",
+    "phone": "091635320",
+    "dateOfBirth": "12/11/1997",
+    "lang": "en",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Libertad",
       "countryCode": "UY",
-      "region": "San José"
+      "region": "San José, Uruguay"
     },
     "profiles": [
       {
@@ -26,7 +28,7 @@
         "url": "https://twitter.com/cristhofert97"
       },
       {
-        "network": "GitHub2",
+        "network": "GitHub",
         "username": "cristhofert",
         "url": "https://github.com/cristhofert"
       }
@@ -34,33 +36,34 @@
   },
   "work": [
     {
-      "name": "Desarrollador Full Stack Junior en Avance Software",
-      "position": "Desarrollador Full Stack Junior",
+      "name": "Junior Full Stack Developer at Avance Software",
+      "position": "Junior Full Stack Developer",
       "url": "https://avancesoftware.com.uy/",
       "startDate": "01-01-2022",
       "endDate": "01-01-2023",
-      "summary": "En mi rol como Desarrollador Full Stack Junior en Avance Software, he trabajado en el diseño y desarrollo de aplicaciones web utilizando tecnologías como JavaScript, React, Node.js, TypeScript, Java, Python, HTML, CSS y SQL. He colaborado con un equipo de desarrollo para alcanzar objetivos y brindar soluciones innovadoras a los clientes.",
+      "summary": "In my role as a Junior Full Stack Developer at Avance Software, I have worked on the design and development of web applications using technologies such as JavaScript, React, Node.js, TypeScript, Java, Python, HTML, CSS and SQL. I have collaborated with a development team to achieve goals and deliver innovative solutions to clients.",
       "highlights": ["Started the company"]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "2Universidad Tecnológica (UTEC)",
+      "area": "Computer Technologist",
+      "institution": "Universidad Tecnológica (UTEC)",
       "url": "https://utec.edu.uy/es/educacion/carrera/tecnologo-en-informatica/",
-      "area": "Tecnólogo en Informática",
       "studyType": "Tecnólogo en Informática",
-      "startDate": "Marzo de 2019",
-      "endDate": "Diciembre de 2021",
+      "startDate": "March 2019",
+      "endDate": "December 2021",
       "score": "4.0",
       "courses": []
     },
     {
-      "institution": "4 Geeks Academy",
       "url": "https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack",
-      "area": "Bootcamp de Desarrollador Full Stack",
+      "area": "Full Stack Web Development Bootcamp",
       "studyType": "Bootcamps",
       "startDate": "2021",
+      "institution": "4Geeks Academy",
+      "dates": "2021 - 2021",
       "endDate": "2021",
       "score": "",
       "courses": []
@@ -73,7 +76,7 @@
     {
       "href": "https://angular.io",
       "src": "https://angular.io/assets/images/logos/angular/angular.svg",
-      "name": "2angular"
+      "name": "angular"
     },
     {
       "href": "https://cordova.apache.org/",
@@ -274,11 +277,11 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Intermedio B1"
+      "fluency": "Intermediate B1"
     },
     {
       "language": "Spanish",
-      "fluency": "Nativo"
+      "fluency": "Native"
     }
   ],
   "interests": [],
