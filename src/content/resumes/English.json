@@ -295,5 +295,26 @@
       "reference": "german@avancesoftware.com.uy"
     }
   ],
-  "projects": []
+  "projects": [
+    {
+    "name": "DG Construcciones",
+    "startDate": "2025-1-17",
+    "endDate": "2025-8-31",
+    "description": "Sitio web para una empresa de contrucción",
+    "highlights": [
+      "Sitio Web"
+    ],
+    "url": "https://www.dgconstrucciones.com.uy/"
+  },
+    {
+      "name": "Portfolio",
+      "startDate": "2024-6-1",
+      "endDate": "2024-6-30",
+      "description": "Mi portfolio personal",
+      "highlights": [
+        "Sitio Web"
+      ],
+      "url": "https://cristhofertravieso.vercel.app/"
+    }
+  ]
 }
