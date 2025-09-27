@@ -1,0 +1,91 @@
+---
+import Section from "../Section.astro"
+
+interface Props {
+  projects: {
+    name: string
+    startDate: string
+    endDate: string
+    description: string
+    highlights: string[]
+    url: string
+  }[],
+  lang: string
+}
+const { projects, lang } = Astro.props;
+console.log({projects});
+---
+
+<Section title={lang==="es" ? "Projectos" : "Projects"}>
+  <ul>
+    { 
+      projects?.map(({ name, startDate, endDate, description, highlights, url }) => {
+        const years = `${startDate} - ${endDate}`
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                </div>
+
+                <time>{years}</time>
+              </header>
+
+              <footer>
+                <p>{description}</p>
+                {highlights?.length > 0 && (
+                  <ul>
+                    {highlights.map((highlight) => (
+                      <li>{highlight}</li>
+                    ))}
+                  </ul>
+                )}
+                {url && (
+                  <p>
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                      {url}
+                    </a>
+                  </p>
+                )}
+              </footer>
+            </article>
+          </li>
+        )
+      }) 
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

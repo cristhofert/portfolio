@@ -6,6 +6,7 @@ import Hero from "@/components/sections/Hero.astro";
 import Languages from "@/components/sections/Languages.astro";
 import References from "@/components/sections/References.astro";
 import Skills from "@/components/sections/Skills.astro";
+import Projects from "@/components/sections/Projects.astro";
 import Layout from "@/layouts/Layout.astro"
 
 import { getCollection } from "astro:content";
@@ -30,6 +31,7 @@ const { entry } = Astro.props;
     <Skills skills={entry.data.skills} lang={entry.data.basics?.lang ?? "es"} />
     <Languages languages={entry.data.languages} lang={entry.data.basics?.lang ?? "es"} />
     <References references={entry.data.references} lang={entry.data.basics?.lang ?? "es"} />
+    <Projects projects={entry.data.projects} lang={entry.data.basics?.lang ?? "es"} />
   </main>
 
 </Layout>
